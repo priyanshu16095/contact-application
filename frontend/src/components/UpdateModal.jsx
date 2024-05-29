@@ -43,7 +43,8 @@ function UpdateModal({ onClose, onSubmit, contact }) {
                 <p className="title">Update Details</p>
 
                 <div className="modal__inputs flex-v">
-                    <div className="flex-c"><img src={contact.photoURL ? contact.photoURL : 'default_contact.png'} width={'140rem'} /></div>
+                    {/* <div className="flex-c"><img src={contact.photoURL ? contact.photoURL : 'default_contact.png'} width={'140rem'} /></div> */}
+                    <div className="flex-c"><img src='default_contact.png' width={'140rem'} /></div>
                     <input name="name" value={details?.name} type="text" placeholder='Name' className='inp' onChange={handleChange} />
                     <div className="modal__email flex-h">
                         <input name='email' value={details?.email} type="text" placeholder='Email' className='inp' onChange={handleChange} />
