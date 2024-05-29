@@ -24,16 +24,25 @@
 .modal__email .inp {
     width: 100%;
 }
+.modal__photo {
+    gap: 0.5rem;
+}
+.modal__photo .inp {
+    flex: 1;
+}
 
 .home {
     gap: 0.5rem;
 }
 .contacts {
     gap: 0.5rem;
+    align-items: center !important;
+    justify-content: center !important;
 }
 .contacts__contacts {
     gap: 1rem;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .contacts__pagination {
     gap: 0.5rem;

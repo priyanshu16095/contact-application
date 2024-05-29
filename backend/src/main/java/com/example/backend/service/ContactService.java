@@ -80,7 +80,7 @@ public class ContactService {
             }
             Files.copy(file.getInputStream(), fileStorageLocation.resolve(filename), REPLACE_EXISTING);
             return ServletUriComponentsBuilder.fromCurrentContextPath()
-                    .path("/app/contact/photo/" + filename)
+                    .path("/api/contact/photo/" + filename)
                     .build()
                     .toUriString();
         } catch(Exception e) {

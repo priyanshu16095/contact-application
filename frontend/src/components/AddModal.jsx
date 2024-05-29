@@ -29,7 +29,6 @@ function AddModal({ onClose, onSubmit }) {
                     </div>
                     <input name='title' value={details.title} type="text" placeholder='Title' className='inp' onChange={handleChange} />
                     <textarea name='address' value={details.address} type="text" placeholder='Address' className='inp' onChange={handleChange} />
-                    <input type="file" className='inp' />
                     <div className="modal__buttons flex-e">
                         <button className="btn" onClick={onClose}>Close</button>
                         <button className="btn" onClick={hanldeAddContact}>Add</button>
